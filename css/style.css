@@ -1,0 +1,149 @@
+html, body {
+    height: 100%;
+    background-color: #415460;
+    color: white;
+}
+
+.nom{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+#nomAccueil{
+    margin-top: 10%;
+    font-size: 40px;
+    text-align: center;
+}
+
+#accueil a {
+    font-size: 50px;
+
+}
+
+#accueil{
+    width: 90%;
+    float: right;
+    height: 100%;
+    margin: -10px;
+    border-bottom: coral solid 1px;
+    background-image: url("../image/imageFond.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px #415460;
+}
+.page{
+    width: 85%;
+    float: right;
+    height: 100%;
+    border-bottom: coral solid 1px;
+}
+
+#profil{
+    font-size: 20px;
+    font-weight: 600;
+    height: 300px;
+    padding: 10px;
+    border-bottom: coral solid 2px;
+}
+nav{
+    color: white;
+    position: fixed;
+    margin-left: -30px;
+    margin-top: -10px;
+    width: 15%;
+    background-color: #2C3740;
+    padding-right: 10px;
+    height: 100%;
+}
+nav li {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-bottom: coral solid 2px;
+    padding: 10px;
+
+}
+nav li:hover{
+    background-color: #577080;
+    justify-content: left;
+}
+
+nav ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+a{
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+}
+
+#stageInfo p {
+    font-size: 14px;
+}
+#bloc{
+    float: left;
+    width: 45%;
+}
+#stageInfo{
+    background-color: lightsalmon;
+    margin-left: 40px;
+    padding: 40px 40px 70px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+img{
+    height: 73%;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#gif{
+    width: 51%;
+    margin-left: 40px;
+}
+#titre {
+    padding-right: 60%;
+    font-size: 30px;
+}
+
+#info{
+    font-size: 14px;
+}
+#moiInfos{
+    background-color: lightsalmon;
+    margin: 50px;
+    padding: 40px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pdf input{
+    width: 200px;
+    height: 40px;
+}
+#rapport{
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+}
+#competences img{
+    width: 16%;
+    margin: 20px;
+    height: auto;
+}
+#competences {
+    height: 250px;
+    margin: 50px;
+}
+
+#cache{
+    width: 0;
+}
