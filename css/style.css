@@ -3,6 +3,12 @@ html, body {
     background-color: #415460;
     color: white;
 }
+a{
+    font-family: Arial;
+}
+p{
+    font-family: Arial;
+}
 
 .nom{
     margin-top: 30px;
@@ -21,13 +27,14 @@ html, body {
 }
 
 #accueil{
-    width: 90%;
-    float: right;
+    width: 87%;
+    float: left;
+    padding-left: 200px;
     height: 100%;
-    margin: -10px;
+    margin-top: -10px;
     border-bottom: coral solid 1px;
     background-image: url("../image/imageFond.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
@@ -35,9 +42,11 @@ html, body {
     text-shadow: 1px 1px #415460;
 }
 .page{
-    width: 85%;
-    float: right;
-    height: 100%;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 50px;
+    float: left;
+    height: auto;
     border-bottom: coral solid 1px;
 }
 
@@ -49,6 +58,8 @@ html, body {
     border-bottom: coral solid 2px;
 }
 nav{
+    float: left;
+    min-width: 200px;
     color: white;
     position: fixed;
     margin-left: -30px;
@@ -76,26 +87,22 @@ nav ul a{
     text-decoration: none;
     color: white;
 }
-a{
-    font-family: Arial;
-}
-p{
-    font-family: Arial;
-}
+
 
 #stageInfo p {
     font-size: 14px;
 }
 #bloc{
     float: left;
-    width: 45%;
+    width: 380px;
+    border: white;
 }
 #stageInfo{
     background-color: lightsalmon;
     margin-left: 40px;
-    padding: 40px 40px 70px;
-    margin-right: 40px;
+    padding: 40px 40px;
     text-align: justify;
+    min-width: 100%;
 }
 
 img{
@@ -106,8 +113,13 @@ img{
 }
 
 #gif{
-    width: 51%;
+    width: 750px;
+    min-width: 680px;
+    float: left;
     margin-left: 40px;
+}
+#gif img{
+    width: 100%;
 }
 #titre {
     padding-right: 60%;
@@ -119,20 +131,24 @@ img{
 }
 #moiInfos{
     background-color: lightsalmon;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
     padding: 40px;
     font-size: 20px;
     text-align: justify;
+    float: left;
 }
 
 #pdf input{
     width: 200px;
     height: 40px;
+    float: right;
 }
 #rapport{
-    margin-top: 30px;
-    margin-right: 50px;
-    float: right;
+    float: left;
+    width: 100%;
+    padding: 50px;
 }
 #competences img{
     width: 16%;
@@ -140,7 +156,7 @@ img{
     height: auto;
 }
 #competences {
-    height: 250px;
+    height: 650px;
     margin: 50px;
 }
 
